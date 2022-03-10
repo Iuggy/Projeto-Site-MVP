@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVPs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+    <header>
+        <h1>MVPs since 2010</h1>
+    </header>
+    <section>
+        <div > 
+         <p>Ano desejado:
+             <input type="number" name="txtano" id="txtano" min="2010" max="2021">
+         </p>
+         <p>Liga: 
+             <input type="radio" name="ligarad" id="nba" checked>
+             <label for="nba">NBA</label>
+             <input type="radio" name="ligarad" id="wnba">
+             <label for="wnba">WNBA</label> 
+         </p>
+         <p><input type="button"  value="Verificar" onclick="verificar()"></p>
+        </div>
+        <div id="res">
+           Preencha os dados para o resultado.
+        </div>
+        <div>
+         <img src="imagens/logo1.png" id="ii" alt="foto1"> 
+        </div>
+    </section>
+    <footer>
+        <p>&copy;NBA</p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
